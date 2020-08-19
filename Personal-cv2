@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shahriyar Taalohi</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="icon" href="ST.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>I'm Shahriyar.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img height="170" width="170" src="Images/sht1.png" alt="p-img">
+        <h2>Hello.</h2>
+        <p class="intro">I am a Mechanical Enginner student, and a web developer.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="slw-img"  src="Images/SLW.png" alt="Soliworkc-icon">
+          <h3>Solidworks</h3>
+          <p>Solidworks 3D CAD design and drafting.</p>
+        </div>
+        <br />
+        <div class="skill-row">
+          <img class="code-img"  src="Images/code.png" alt="code-png">
+          <h3>Web developer</h3>
+          <p>Front-End Developer (HTML,CSS,JavaScript,..).</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you like engineering as much as I do?</h3>
+        <p class="contact-me-descriptions">Love engineering as much as I do?, lets talk about it!.</p>
+
+
+
+
+        <a class="btn" href="s.taalohi@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/shahriyartaalohi/">LinkedIn</a>
+      <p class="coppyright">© 2020 Shahriyar Taalohi.</p>
+    </div>/**********************************Tag Codes*******************/
+
+/*************Body related codes*****************/
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*************Heading and paragraphs codes*****************/
+
+h1 {
+  margin:40px auto 0 auto ;
+font-family: 'Sacramento', cursive;
+font-size: 5.625rem;
+color: #66BFBF;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  margin: 20px auto 0 auto;
+  color: #66BFBF;
+  padding-bottom: 15px;
+}
+
+h3 {
+font-family: 'Montserrat', sans-serif;
+color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+/*******************Horizontal lines*****************/
+
+hr {
+border: dotted #52575d 6px;
+border-bottom: none;
+width: 5%;
+margin: 200px auto;
+}
+
+/******************Anchor tags**********************/
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+/***********************************Class Codes************************************/
+
+/******************Top container related codes****************/
+
+.top-container {
+  background-color: #e0ece4;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  right : 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom : 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile {
+  padding-top: 130px;
+}
+
+.intro {
+  margin: auto;
+  width: 40%;
+}
+
+/****************************Middle container related codes********************/
+
+.middle-container {
+  background-color: #f7f2e7;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+  text-align: left;
+  width: 40%;
+}
+
+.slw-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.code-img {
+  float: right;
+width: 25%;
+margin-left: 30px;
+}
+
+.contact-me {
+  padding-bottom: 100px;
+}
+
+.contact-me-descriptions {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+/************************Bottom container related codes**********************/
+
+.bottom-container {
+background-color: #d8d3cd;
+padding: 100px 0 50px;
+}
+
+.coppyright {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/***********************************Button Codes***************************/
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+  </body>
+</html>
+
